@@ -221,12 +221,6 @@ export default function Home() {
               <source src="/videos/dra-ivette-intro.mp4" type="video/mp4" />
               Tu navegador no soporta la reproducción de video.
             </video>
-            <p className="video-note">
-              Sube tu video a{' '}
-              <code>/public/videos/dra-ivette-intro.mp4</code> y una imagen de
-              portada en <code>/public/images/dra-ivette-video-poster.jpg</code>
-              .
-            </p>
           </div>
         </div>
       </section>
