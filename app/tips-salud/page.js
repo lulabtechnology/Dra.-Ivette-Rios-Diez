@@ -6,16 +6,27 @@ export default function TipsSaludPage() {
   return (
     <div className="section section-page">
       <div className="container">
-        <div className="section-header">
-          <p className="section-kicker">Tips de salud</p>
-          <h1 className="section-title">
-            Recomendaciones sencillas para cuidar tu salud día a día
-          </h1>
-          <p className="section-description">
-            Estos tips no reemplazan una consulta médica, pero pueden ayudarte
-            a cuidar mejor tu salud y la de tu familia, especialmente si vives
-            con enfermedades crónicas o acompañas a un adulto mayor.
-          </p>
+        {/* Cabecera con imagen destacada para tips médicos */}
+        <div className="page-hero-grid">
+          <div>
+            <p className="section-kicker">Tips de salud</p>
+            <h1 className="section-title">
+              Recomendaciones sencillas para cuidar tu salud día a día
+            </h1>
+            <p className="section-description">
+              Estos tips no reemplazan una consulta médica, pero pueden ayudarte
+              a cuidar mejor tu salud y la de tu familia, especialmente si vives
+              con enfermedades crónicas o acompañas a un adulto mayor.
+            </p>
+          </div>
+
+          <div className="page-hero-photo">
+            {/* Sube esta imagen a /public/images/dra-ivette-tips-salud-hero.jpg */}
+            <img
+              src="/images/dra-ivette-tips-salud-hero.jpg"
+              alt="Paciente revisando recomendaciones de salud junto a su médica"
+            />
+          </div>
         </div>
 
         <div className="card-grid card-grid-services">
