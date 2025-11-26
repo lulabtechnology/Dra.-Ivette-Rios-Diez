@@ -7,7 +7,7 @@ export default function ServiciosPage() {
     <div className="section section-page">
       <div className="container">
         <div className="section-header">
-          {/* Se eliminó el texto pequeño "Servicios" */}
+          {/* SIN texto pequeño arriba */}
           <h1 className="section-title">
             Servicios médicos en atención primaria
           </h1>
@@ -22,7 +22,7 @@ export default function ServiciosPage() {
           </p>
         </div>
 
-        {/* Dos imágenes en columnas, separadas (no superpuestas) */}
+        {/* Dos imágenes en columnas, separadas */}
         <div className="two-columns" style={{ marginBottom: '2.5rem' }}>
           <div>
             {/* /public/images/dra-ivette-servicios-1.jpg */}
@@ -65,10 +65,10 @@ export default function ServiciosPage() {
 
           <article className="card card-service">
             <h2 className="card-title">
-              Manejo y control de Enfermedades crónicas
+              Manejo y control de enfermedades crónicas
             </h2>
             <p className="card-body">
-              Manejo y control de Hipertensión Arterial, Diabetes Mellitus,
+              Manejo y control de hipertensión arterial, diabetes mellitus,
               enfermedad de tiroides y otras condiciones crónicas de salud, con
               seguimiento estructurado y ajustes según cada caso.
             </p>
@@ -76,7 +76,7 @@ export default function ServiciosPage() {
 
           <article className="card card-service">
             <h2 className="card-title">
-              Evaluación y seguimiento de Adultos mayores
+              Evaluación y seguimiento de adultos mayores
             </h2>
             <p className="card-body">
               Valoración integral del adulto mayor, seguimiento funcional y
@@ -90,7 +90,7 @@ export default function ServiciosPage() {
             </h2>
             <p className="card-body">
               Atención centrada en aliviar síntomas y mejorar la calidad de
-              vida del paciente y su familia. Ofrecemos Atención en domicilio.
+              vida del paciente y su familia. Ofrecemos atención en domicilio.
             </p>
           </article>
 
@@ -102,3 +102,39 @@ export default function ServiciosPage() {
               seguimiento cercano.
             </p>
           </article>
+
+          <article className="card card-service">
+            <h2 className="card-title">Cambios de sondas urinarias</h2>
+            <p className="card-body">
+              Cambios de sondas urinarias con enfoque en la comodidad,
+              seguridad y dignidad de cada paciente.
+            </p>
+          </article>
+
+          <article className="card card-service">
+            <h2 className="card-title">Electrocardiogramas</h2>
+            <p className="card-body">
+              Realización de electrocardiogramas como parte de la evaluación
+              cardiovascular y control de patologías cardíacas.
+            </p>
+          </article>
+        </div>
+
+        <div className="section-cta-center">
+          <a
+            href={WHATSAPP_LINK}
+            className="btn btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Agenda tu cita por WhatsApp
+          </a>
+          <p className="section-note">
+            Si tienes dudas sobre algún servicio, puedes escribir directamente a
+            WhatsApp para recibir orientación.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
