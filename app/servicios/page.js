@@ -1,3 +1,5 @@
+// app/servicios/page.js
+
 const WHATSAPP_LINK =
   'https://wa.me/50763694565?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
 
@@ -99,3 +101,11 @@ export default function ServiciosPage() {
             Agenda tu cita por WhatsApp
           </a>
           <p className="section-note">
+            Si tienes dudas sobre algún servicio, puedes escribir directamente a
+            WhatsApp para recibir orientación.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
