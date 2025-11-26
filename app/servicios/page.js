@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 const WHATSAPP_LINK =
   'https://wa.me/50763694565?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
 
@@ -13,81 +11,81 @@ export default function ServiciosPage() {
             Servicios médicos en atención primaria
           </h1>
           <p className="section-description">
-            Una consulta pensada para resolver dudas, organizar tu cuidado y
-            ayudarte a tomar decisiones informadas sobre tu salud.
+            A lo largo de mi práctica médica, he acompañado a cientos de
+            pacientes en momentos claves de salud, ofreciendo orientación clara,
+            seguimiento continuo y un cuidado centrado en la salud de mis
+            pacientes.
+          </p>
+          <p className="section-description">
+            Actualmente ofrezco los siguientes servicios:
           </p>
         </div>
 
         <div className="card-grid card-grid-services">
           <article className="card card-service">
-            <h2 className="card-title">Consulta de medicina general</h2>
+            <h2 className="card-title">Atención preventiva de salud</h2>
             <p className="card-body">
-              Evaluación integral de tu estado de salud, revisión de síntomas y
-              construcción de un plan de manejo.
+              Evaluación general y especifica de salud, orientaciones sobre
+              estilos de vida saludables, consejos sobre alimentación y
+              ejercicio, todos basados en la evaluación individual de cada
+              paciente.
             </p>
-            <ul className="card-list">
-              <li>Consulta de adultos y adultos mayores.</li>
-              <li>Control de presión arterial, glicemia y colesterol.</li>
-              <li>Revisión de tratamientos y ajustes necesarios.</li>
-            </ul>
           </article>
 
           <article className="card card-service">
-            <h2 className="card-title">Medicina preventiva</h2>
+            <h2 className="card-title">
+              Manejo y control de Enfermedades crónicas
+            </h2>
             <p className="card-body">
-              Enfoque en prevención y detección temprana para evitar
-              complicaciones futuras.
+              Manejo y control de Hipertensión Arterial, Diabetes Mellitus,
+              enfermedad de tiroides y otras condiciones crónicas de salud, con
+              seguimiento estructurado y ajustes según cada caso.
             </p>
-            <ul className="card-list">
-              <li>Chequeos periódicos según rango de edad.</li>
-              <li>Revisión de laboratorios y estilos de vida.</li>
-              <li>
-                Consejos prácticos sobre alimentación, ejercicio y hábitos
-                saludables.
-              </li>
-            </ul>
           </article>
 
           <article className="card card-service">
-            <h2 className="card-title">Manejo de enfermedades crónicas</h2>
+            <h2 className="card-title">
+              Evaluación y seguimiento de Adultos mayores
+            </h2>
             <p className="card-body">
-              Acompañamiento continuo para vivir mejor con diagnósticos
-              crónicos.
+              Valoración integral del adulto mayor, seguimiento funcional y
+              acompañamiento en las distintas etapas del envejecimiento.
             </p>
-            <ul className="card-list">
-              <li>Hipertensión arterial.</li>
-              <li>Diabetes mellitus.</li>
-              <li>Otras condiciones crónicas frecuentes.</li>
-            </ul>
           </article>
 
           <article className="card card-service">
-            <h2 className="card-title">Cuidados paliativos</h2>
+            <h2 className="card-title">
+              Atención y acompañamiento en cuidados paliativos
+            </h2>
             <p className="card-body">
-              Cuidados centrados en la calidad de vida del paciente y su
-              familia.
+              Atención centrada en aliviar síntomas y mejorar la calidad de
+              vida del paciente y su familia. Ofrecemos Atención en domicilio.
             </p>
-            <ul className="card-list">
-              <li>Control de síntomas y del dolor.</li>
-              <li>Acompañamiento en decisiones difíciles.</li>
-              <li>Trabajo conjunto con otros especialistas.</li>
-            </ul>
           </article>
 
           <article className="card card-service">
-            <h2 className="card-title">Coordinación con especialistas</h2>
+            <h2 className="card-title">Curación y cuidados de heridas</h2>
             <p className="card-body">
-              La atención primaria como eje que organiza tu ruta en el sistema
-              de salud.
+              Manejo de pie diabético, heridas posteriores a una cirugía,
+              úlceras y otras lesiones que requieren curaciones periódicas y
+              seguimiento cercano.
             </p>
-            <ul className="card-list">
-              <li>Referencia a especialidades cuando es necesario.</li>
-              <li>
-                Revisión de diagnósticos y tratamientos indicados por otros
-                médicos.
-              </li>
-              <li>Seguimiento de exámenes y resultados.</li>
-            </ul>
+          </article>
+
+          <article className="card card-service">
+            <h2 className="card-title">Cambios de sondas Urinarias</h2>
+            <p className="card-body">
+              Cambios de sondas urinarias con enfoque en la comodidad,
+              seguridad y dignidad de cada paciente.
+            </p>
+          </article>
+
+          <article className="card card-service">
+            <h2 className="card-title">Electrocardiogramas</h2>
+            <p className="card-body">
+              Realización de electrocardiogramas como parte de la evaluación
+              cardiovascular y control de patologías cardíacas.
+            </p>
           </article>
         </div>
 
@@ -101,11 +99,3 @@ export default function ServiciosPage() {
             Agenda tu cita por WhatsApp
           </a>
           <p className="section-note">
-            Si tienes dudas sobre algún servicio, puedes escribir directamente a
-            WhatsApp para recibir orientación.
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
