@@ -200,8 +200,8 @@ export default function Home() {
 
             <p className="section-description">
               Mi mayor compromiso es que tú y tu familia se sientan escuchados,
-              comprendidos y acompañados, no solo como pacientes, sino como
-              seres humanos.
+              comprendidos y acompañados, no solo como pacientes, sino como seres
+              humanos.
             </p>
 
             <Link href="/sobre-mi" className="link-arrow">
@@ -244,6 +244,7 @@ export default function Home() {
               controls
               poster="/images/dra-ivette-video-poster.jpg"
             >
+              {/* Sube este archivo a /public/videos/dra-ivette-intro.mp4 */}
               <source src="/videos/dra-ivette-intro.mp4" type="video/mp4" />
               Tu navegador no soporta la reproducción de video.
             </video>
@@ -287,9 +288,30 @@ export default function Home() {
               >
                 Ver en Google Maps
               </a>
-              <a href={WHATSAPP_LINK} className="link-arrow" target="_blank" rel="noopener noreferrer">
+              <a
+                href={WHATSAPP_LINK}
+                className="link-arrow"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Agendar cita por WhatsApp →
               </a>
+            </div>
+
+            {/* Video de la ubicación / entorno del centro médico */}
+            <div className="video-card">
+              <video
+                className="video-player"
+                controls
+                poster="/images/dra-ivette-ubicacion-poster.jpg"
+              >
+                {/* Sube este archivo a /public/videos/dra-ivette-ubicacion.mp4 */}
+                <source
+                  src="/videos/dra-ivette-ubicacion.mp4"
+                  type="video/mp4"
+                />
+                Tu navegador no soporta la reproducción de video.
+              </video>
             </div>
           </div>
 
