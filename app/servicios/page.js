@@ -22,17 +22,32 @@ export default function ServiciosPage() {
           </p>
         </div>
 
-        {/* Bloque visual con más imágenes relacionadas a los servicios */}
-        <div className="home-about-media">
-          <div className="photo-stack">
-            {/* Sube estas imágenes a /public/images/dra-ivette-servicios-1.jpg y 2 */}
+        {/* Bloque visual con imágenes en lugares diferentes (no superpuestas) */}
+        <div className="two-columns" style={{ marginBottom: '2.5rem' }}>
+          <div>
+            {/* Sube esta imagen a /public/images/dra-ivette-servicios-1.jpg */}
             <img
               src="/images/dra-ivette-servicios-1.jpg"
-              alt="Dra. Ivette conversando con paciente durante la consulta"
+              alt="Dra. Ivette conversando con un paciente durante la consulta"
+              style={{
+                width: '100%',
+                display: 'block',
+                borderRadius: '24px',
+                boxShadow: '0 18px 45px rgba(15,23,42,0.15)',
+              }}
             />
+          </div>
+          <div>
+            {/* Sube esta imagen a /public/images/dra-ivette-servicios-2.jpg */}
             <img
               src="/images/dra-ivette-servicios-2.jpg"
-              alt="Detalle del consultorio de la Dra. Ivette Ríos Diez"
+              alt="Vista del consultorio de la Dra. Ivette Ríos Diez"
+              style={{
+                width: '100%',
+                display: 'block',
+                borderRadius: '24px',
+                boxShadow: '0 18px 45px rgba(15,23,42,0.15)',
+              }}
             />
           </div>
         </div>
