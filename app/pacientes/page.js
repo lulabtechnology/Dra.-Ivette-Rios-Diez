@@ -1,5 +1,6 @@
+// app/pacientes/page.js
 const WHATSAPP_LINK =
-  'https://wa.me/50763694565?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
+  'https://wa.me/50764615494?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
 
 export default function PacientesPage() {
   return (
