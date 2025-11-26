@@ -108,6 +108,7 @@ main {
   font-weight: 600;
   color: var(--color-text);
   font-size: 1rem;
+  font-style: italic; /* Nombre en cursiva */
 }
 
 .logo-tagline {
@@ -578,6 +579,40 @@ main {
   margin-top: 0.25rem;
 }
 
+/* HOME SUMMARY (seguros, pagos, horario) */
+
+.home-summary {
+  background: #e0f2fe;
+}
+
+.home-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.summary-block {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: var(--radius-medium);
+  padding: 1.4rem 1.3rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.summary-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.summary-text {
+  font-size: 0.86rem;
+  color: var(--color-muted);
+}
+
+.summary-text + .summary-text {
+  margin-top: 0.25rem;
+}
+
 /* PÁGINAS INTERNAS */
 
 .section-page {
@@ -801,77 +836,6 @@ main {
   .two-columns,
   .card-grid,
   .card-grid-services,
-  .footer-columns {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  }
-
-  .card-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .card-grid-services {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .contact-card-secondary {
-    margin-top: 1.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .header-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.75rem;
-  }
-
-  .nav {
-    flex-wrap: wrap;
-    row-gap: 0.4rem;
-  }
-
-  .hero-inner {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .hero {
-    padding-top: 3.3rem;
-  }
-
-  .hero-title {
-    font-size: 2rem;
-  }
-
-  .card-grid,
-  .card-grid-services {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .home-about-grid,
-  .home-video-grid,
-  .location-grid,
-  .page-hero-grid,
-  .contact-grid,
-  .two-columns {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .photo-stack img:last-child {
-    position: static;
-    width: 100%;
-    margin-top: 0.9rem;
-    border-width: 3px;
-  }
-
-  .timeline {
-    margin-top: 2rem;
-  }
-
-  .section {
-    padding: 2.6rem 0;
-  }
-
-  .footer-columns {
-    grid-template-columns: minmax(0, 1fr);
-  }
-}
+  .footer-columns,
+  .home-summary-grid {
+    grid-template-columns:
