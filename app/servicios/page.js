@@ -22,6 +22,21 @@ export default function ServiciosPage() {
           </p>
         </div>
 
+        {/* Bloque visual con más imágenes relacionadas a los servicios */}
+        <div className="home-about-media">
+          <div className="photo-stack">
+            {/* Sube estas imágenes a /public/images/dra-ivette-servicios-1.jpg y 2 */}
+            <img
+              src="/images/dra-ivette-servicios-1.jpg"
+              alt="Dra. Ivette conversando con paciente durante la consulta"
+            />
+            <img
+              src="/images/dra-ivette-servicios-2.jpg"
+              alt="Detalle del consultorio de la Dra. Ivette Ríos Diez"
+            />
+          </div>
+        </div>
+
         <div className="card-grid card-grid-services">
           <article className="card card-service">
             <h2 className="card-title">Atención preventiva de salud</h2>
