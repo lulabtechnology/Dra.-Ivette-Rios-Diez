@@ -1,7 +1,8 @@
+// app/page.js
 import Link from 'next/link';
 
 const WHATSAPP_LINK =
-  'https://wa.me/50763694565?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
+  'https://wa.me/50764615494?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
 
 export default function Home() {
   return (
@@ -11,20 +12,19 @@ export default function Home() {
         <div className="container hero-inner">
           <div className="hero-left">
             <p className="hero-badge">
-              Atención primaria con calidez humana
+              Atención Primaria, Medicina General y Cuidados Paliativos
             </p>
             <h1 className="hero-title">
               Tu doctora de confianza en The Panama Clinic
             </h1>
             <p className="hero-subtitle">
-              La consulta médica donde se escucha con calma, se explican las
-              cosas con claridad y se construye un plan de cuidado a tu
-              medida.
+              Atención Medica preventiva, Medicina General, Cuidados
+              Paliativos y manejo del dolor en un espacio tranquilo y humano.
             </p>
 
             <div className="hero-highlights">
+              <span className="highlight-pill">Atención médica preventiva</span>
               <span className="highlight-pill">Medicina general</span>
-              <span className="highlight-pill">Medicina preventiva</span>
               <span className="highlight-pill">Cuidados paliativos</span>
             </div>
 
@@ -43,7 +43,8 @@ export default function Home() {
             </div>
 
             <p className="hero-note">
-              The Panama Clinic · Torre A · Consultorio 1108 · Ciudad de Panamá
+              Pacific Center (Panama Clinic) · Torre A · Piso 11 · Consultorio
+              1108 · Ciudad de Panamá
             </p>
           </div>
 
@@ -53,18 +54,18 @@ export default function Home() {
                 {/* Foto principal vertical */}
                 <img
                   src="/images/dra-ivette-hero.jpg"
-                  alt="Dra. Ivette Rios Diez en su consultorio"
+                  alt="Dra. Ivette Ríos Diez en su consultorio"
                   className="hero-doctor-image"
                 />
               </div>
               <div className="hero-doctor-caption">
-                <p className="doctor-name">Dra. Ivette Rios Diez</p>
+                <p className="doctor-name">Dra. Ivette Ríos Diez</p>
                 <p className="doctor-specialty">
-                  Medicina General · Atención Primaria
+                  Atención Primaria · Medicina General · Cuidados Paliativos
                 </p>
                 <p className="doctor-small-text">
-                  Cercanía, escucha activa y acompañamiento continuo para ti y
-                  tu familia.
+                  Trato cercano, empatía y acompañamiento continuo para ti y tu
+                  familia.
                 </p>
               </div>
             </div>
@@ -74,7 +75,10 @@ export default function Home() {
               <ul className="hero-info-list">
                 <li>Chequeos preventivos y control anual de salud.</li>
                 <li>Control de hipertensión, diabetes y colesterol.</li>
-                <li>Acompañamiento del adulto mayor y cuidados paliativos.</li>
+                <li>
+                  Acompañamiento del adulto mayor y cuidados paliativos en
+                  familia.
+                </li>
               </ul>
             </div>
           </div>
@@ -90,63 +94,78 @@ export default function Home() {
               Atención integral en un solo consultorio
             </h2>
             <p className="section-description">
-              Desde el primer chequeo preventivo hasta el acompañamiento en
-              procesos crónicos, la atención se adapta a la etapa de vida y
-              necesidades de cada persona.
+              A lo largo de mi práctica médica, he acompañado a cientos de
+              pacientes en momentos claves de salud, ofreciendo orientación
+              clara, seguimiento continuo y un cuidado centrado en la salud de
+              mis pacientes.
             </p>
           </div>
 
           <div className="card-grid">
             <article className="card">
-              <h3 className="card-title">Medicina general</h3>
+              <h3 className="card-title">Atención preventiva de salud</h3>
               <p className="card-body">
-                Evaluación completa, diagnóstico temprano y seguimiento
-                continuo.
+                Evaluación general y especifica de salud, orientaciones sobre
+                estilos de vida saludables, consejos sobre alimentación y
+                ejercicio, todos basados en la evaluación individual de cada
+                paciente.
               </p>
-              <ul className="card-list">
-                <li>Consultas de adultos y adultos mayores.</li>
-                <li>Control de enfermedades crónicas.</li>
-                <li>Indicaciones claras y por escrito.</li>
-              </ul>
             </article>
 
             <article className="card">
-              <h3 className="card-title">Medicina preventiva</h3>
+              <h3 className="card-title">
+                Manejo y control de enfermedades crónicas
+              </h3>
               <p className="card-body">
-                El objetivo es anticiparse: cuidar antes de que aparezcan las
-                complicaciones.
+                Hipertensión Arterial, Diabetes Mellitus, enfermedad de
+                tiroides y otras condiciones crónicas de salud con seguimiento
+                cercano.
               </p>
-              <ul className="card-list">
-                <li>Chequeos periódicos según tu edad y antecedentes.</li>
-                <li>Revisión de laboratorios y estilos de vida.</li>
-                <li>Planes de control personalizados.</li>
-              </ul>
             </article>
 
             <article className="card">
-              <h3 className="card-title">Cuidados paliativos</h3>
+              <h3 className="card-title">
+                Evaluación y seguimiento de adultos mayores
+              </h3>
               <p className="card-body">
-                Acompañamiento respetuoso y humano para el paciente y su
-                familia.
+                Valoración integral del adulto mayor, acompañando su proceso de
+                envejecimiento y priorizando calidad de vida.
               </p>
-              <ul className="card-list">
-                <li>Control de síntomas y del dolor.</li>
-                <li>Apoyo en la toma de decisiones médicas.</li>
-                <li>Coordinación con otros especialistas.</li>
-              </ul>
             </article>
 
             <article className="card">
-              <h3 className="card-title">Coordinación de cuidado</h3>
+              <h3 className="card-title">
+                Atención y acompañamiento en cuidados paliativos
+              </h3>
               <p className="card-body">
-                La atención primaria como punto de partida para tu ruta de
-                salud.
+                Atención centrada en aliviar el sufrimiento físico y emocional,
+                respetando los deseos y valores del paciente. Ofrecemos Atención
+                en domicilio.
               </p>
-              <ul className="card-list">
-                <li>Referencia a especialistas cuando se requiere.</li>
-                <li>Revisión integral de tratamientos.</li>
-                <li>Seguimiento de resultados y ajustes.</li>
-              </ul>
+            </article>
+
+            <article className="card">
+              <h3 className="card-title">Curación y cuidados de heridas</h3>
+              <p className="card-body">
+                Cuidados para pie diabético, heridas posteriores a cirugía,
+                úlceras y otras lesiones que requieren seguimiento médico.
+              </p>
+            </article>
+
+            <article className="card">
+              <h3 className="card-title">Cambios de sondas urinarias</h3>
+              <p className="card-body">
+                Atención cuidadosa y respetuosa para cambios de sondas
+                urinarias, con enfoque en comodidad y seguridad del paciente.
+              </p>
+            </article>
+
+            <article className="card">
+              <h3 className="card-title">Electrocardiogramas</h3>
+              <p className="card-body">
+                Realización e interpretación de electrocardiogramas como parte
+                de la evaluación cardiovascular.
+              </p>
             </article>
           </div>
 
@@ -163,23 +182,30 @@ export default function Home() {
         <div className="container home-about-grid">
           <div>
             <p className="section-kicker">Sobre la doctora</p>
-            <h2 className="section-title">
-              Una consulta donde puedes hablar con tranquilidad
-            </h2>
+            <h2 className="section-title">Cada paciente es una historia única</h2>
             <p className="section-description">
-              Más que revisar signos vitales, la consulta está pensada para
-              escuchar tu historia, entender tu contexto y tomar decisiones
-              juntos, paso a paso.
+              Acompañar a mis pacientes en situaciones de vulnerabilidad me ha
+              enseñado el valor de la empatía y el trato humano en cada
+              consulta.
             </p>
 
             <ul className="pill-list">
-              <li>Escucha y explicación clara de cada indicación.</li>
-              <li>Enfoque integral: mente, cuerpo y entorno familiar.</li>
-              <li>Seguimiento cercano en procesos crónicos.</li>
+              <li>Tranquilidad.</li>
+              <li>Claridad (con un lenguaje claro, sin tecnicismo).</li>
+              <li>
+                Acompañamiento en cada etapa de la atención, siempre respetando
+                los deseos, valores y dignidad de cada persona.
+              </li>
             </ul>
 
+            <p className="section-description">
+              Mi mayor compromiso es que tú y tu familia se sientan escuchados,
+              comprendidos y acompañados, no solo como pacientes, sino como seres
+              humanos.
+            </p>
+
             <Link href="/sobre-mi" className="link-arrow">
-              Más sobre la trayectoria de la doctora →
+              Más sobre mi formación y experiencia →
             </Link>
           </div>
 
@@ -207,8 +233,8 @@ export default function Home() {
               Un espacio tranquilo para hablar de tu salud
             </h2>
             <p className="section-description">
-              Aquí puedes mostrar un video corto de presentación, el consultorio
-              o un mensaje de bienvenida para tus pacientes.
+              Aquí puedes mostrar un video corto de presentación, el
+              consultorio o un mensaje de bienvenida para tus pacientes.
             </p>
           </div>
 
@@ -218,9 +244,16 @@ export default function Home() {
               controls
               poster="/images/dra-ivette-video-poster.jpg"
             >
+              {/* Sube este archivo a /public/videos/dra-ivette-intro.mp4 */}
               <source src="/videos/dra-ivette-intro.mp4" type="video/mp4" />
               Tu navegador no soporta la reproducción de video.
             </video>
+            <p className="video-note">
+              Sube tu video a{' '}
+              <code>/public/videos/dra-ivette-intro.mp4</code> y una imagen de
+              portada en <code>/public/images/dra-ivette-video-poster.jpg</code>
+              .
+            </p>
           </div>
         </div>
       </section>
@@ -231,18 +264,19 @@ export default function Home() {
           <div>
             <p className="section-kicker">Ubicación</p>
             <h2 className="section-title">
-              Fácil acceso en The Panama Clinic
+              Fácil acceso en Pacific Center (Panama Clinic)
             </h2>
             <p className="section-description">
-              El consultorio se encuentra en uno de los centros médicos más
-              completos de la ciudad, con estacionamientos y servicios
-              complementarios cercanos.
+              Pacific Center es un complejo médico y comercial que cuenta con
+              hospital, laboratorio, radiología, centro de rehabilitación y
+              fisioterapia, consultorios médicos, farmacia, además de
+              almacenes, hotel y food court. Todo en una sola ubicación.
             </p>
 
             <div className="info-tags">
-              <span className="info-tag">The Panama Clinic · Torre A</span>
+              <span className="info-tag">Pacific Center (Panama Clinic)</span>
+              <span className="info-tag">Torre A · Piso 11</span>
               <span className="info-tag">Consultorio 1108</span>
-              <span className="info-tag">Ciudad de Panamá</span>
             </div>
 
             <div className="location-links">
@@ -254,19 +288,77 @@ export default function Home() {
               >
                 Ver en Google Maps
               </a>
-              <a href={WHATSAPP_LINK} className="link-arrow">
+              <a
+                href={WHATSAPP_LINK}
+                className="link-arrow"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Agendar cita por WhatsApp →
               </a>
+            </div>
+
+            {/* Video de la ubicación / entorno del centro médico */}
+            <div className="video-card">
+              <video
+                className="video-player"
+                controls
+                poster="/images/dra-ivette-ubicacion-poster.jpg"
+              >
+                {/* Sube este archivo a /public/videos/dra-ivette-ubicacion.mp4 */}
+                <source
+                  src="/videos/dra-ivette-ubicacion.mp4"
+                  type="video/mp4"
+                />
+                Tu navegador no soporta la reproducción de video.
+              </video>
             </div>
           </div>
 
           <div className="location-card">
-            <p className="location-card-title">¿Cómo llegar?</p>
+            <p className="location-card-title">Cómo llegar</p>
             <ul className="location-card-list">
-              <li>Edificio moderno y de fácil acceso.</li>
-              <li>Estacionamientos dentro del complejo.</li>
-              <li>Cerca de comercios, servicios y vías principales.</li>
+              <li>Ubicado en Calle Ramón H Jurado.</li>
+              <li>
+                Amplios estacionamientos y fácil acceso desde distintos puntos
+                de la ciudad.
+              </li>
+              <li>Incluye acceso directo al corredor norte.</li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* RESUMEN FINAL: SERVICIOS, SEGUROS, PAGOS */}
+      <section className="section home-summary">
+        <div className="container home-summary-grid">
+          <div className="summary-block">
+            <h2 className="summary-title">Atención médica integral</h2>
+            <p className="summary-text">
+              Atención Medica preventiva, Medicina General, Cuidados Paliativos
+              y manejo del dolor.
+            </p>
+          </div>
+
+          <div className="summary-block">
+            <h2 className="summary-title">Seguros y métodos de pago</h2>
+            <p className="summary-text">
+              Aceptamos seguros : BUPA, WWM (World Wide Medial), PALIG, VIVIR,
+              ASSA).
+            </p>
+            <p className="summary-text">
+              Métodos de pago: Tarjetas de crédito, clave, transferencias
+              bancarias, kuara, yappi.
+            </p>
+          </div>
+
+          <div className="summary-block">
+            <h2 className="summary-title">Horarios y contacto</h2>
+            <p className="summary-text">Horario de lunes a sábado.</p>
+            <p className="summary-text">
+              Teléfono: +507 3102475 · WhatsApp: +507 63694565 ó +507 64615494.
+            </p>
+            <p className="summary-text">Piso 11-Consultorio 1108.</p>
           </div>
         </div>
       </section>

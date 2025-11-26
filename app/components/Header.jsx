@@ -1,7 +1,8 @@
+// app/components/Header.jsx
 import Link from 'next/link';
 
 const WHATSAPP_LINK =
-  'https://wa.me/50763694565?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
+  'https://wa.me/50764615494?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
 
 export default function Header() {
   return (
@@ -13,13 +14,13 @@ export default function Header() {
               {/* Logo: sube el archivo en /public/logo-dra-ivette.png */}
               <img
                 src="/logo-dra-ivette.png"
-                alt="Logo Dra. Ivette Rios Diez"
+                alt="Logo Dra. Ivette Ríos Diez"
               />
             </span>
             <span className="logo-text">
-              <span className="logo-name">Dra. Ivette Rios Diez</span>
+              <span className="logo-name">Dra. Ivette Ríos Diez</span>
               <span className="logo-tagline">
-                Atención primaria en Panamá
+                Atención Primaria, Medicina General y Cuidados Paliativos
               </span>
             </span>
           </Link>
@@ -29,6 +30,7 @@ export default function Header() {
           <Link href="/sobre-mi">Sobre mí</Link>
           <Link href="/servicios">Servicios</Link>
           <Link href="/pacientes">Pacientes</Link>
+          <Link href="/tips-salud">Tips de salud</Link>
           <Link href="/contacto">Contacto</Link>
           <a
             href={WHATSAPP_LINK}
