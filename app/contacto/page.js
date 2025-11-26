@@ -1,7 +1,8 @@
+// app/contacto/page.js
 const WHATSAPP_LINK_MAIN =
-  'https://wa.me/50763694565?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
+  'https://wa.me/50764615494?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
 const WHATSAPP_LINK_SEC =
-  'https://wa.me/50764615495?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
+  'https://wa.me/50763694565?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
 
 export default function ContactoPage() {
   return (
@@ -27,7 +28,7 @@ export default function ContactoPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  +507 63694565
+                  +507 64615494
                 </a>{' '}
                 ó{' '}
                 <a
@@ -35,7 +36,7 @@ export default function ContactoPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  +507 64615495
+                  +507 63694565
                 </a>
               </li>
               <li>
