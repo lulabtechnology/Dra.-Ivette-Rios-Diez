@@ -11,8 +11,11 @@ export default function PacientesPage() {
             Todo lo que necesitas saber antes de tu consulta
           </h1>
           <p className="section-description">
-            La idea es que vengas con tranquilidad. Aquí tienes algunas
-            recomendaciones para aprovechar mejor tu cita.
+            Mi enfoque de atención combina la medicina basada en evidencia con
+            un trato humano y cercano, priorizando el bienestar, comodidad y
+            calidad de vida de cada paciente. Lo que más deseo es crear un
+            ambiente que te brinde tranquilidad y confianza al momento de tu
+            atención.
           </p>
         </div>
 
@@ -21,36 +24,35 @@ export default function PacientesPage() {
             <h2>Antes de tu cita</h2>
             <ul className="check-list">
               <li>
-                Trae tu documento de identidad y, si aplica, información de tu
-                seguro.
+                No olvides tus documentos de identidad, y si cuentas con seguro
+                privado el carnet digital o físico del mismo (actualmente
+                aceptamos los siguientes seguros BUPA, World Wide Medical y
+                PALIG).
               </li>
               <li>
-                Anota tus medicamentos actuales (nombre y dosis) o trae la
-                receta contigo.
+                Anota todos los medicamentos actuales que estés tomando, así
+                como en qué horario los tomas.
               </li>
               <li>
-                Si tienes exámenes recientes, tráelos para revisarlos en
-                conjunto.
+                Si tienes exámenes recientes, radiografías u otro estudio
+                especializado, tráelos ya sea en imagen en tu celular para que
+                podamos en conjunto estudiar los mismos.
               </li>
             </ul>
           </div>
 
           <div className="text-block">
-            <h2>Durante la consulta</h2>
-            <ul className="check-list">
-              <li>
-                Siéntete en confianza de comentar tus dudas, preocupaciones y
-                síntomas.
-              </li>
-              <li>
-                Puedes pedir que las indicaciones queden por escrito para
-                revisarlas luego con calma.
-              </li>
-              <li>
-                La consulta está pensada para que puedas tomar decisiones
-                informadas sobre tu salud.
-              </li>
-            </ul>
+            <h2>Recomendaciones para aprovechar tu consulta</h2>
+            <p>
+              Siéntete en confianza de comentar tus dudas, preocupaciones y
+              síntomas. Puedes pedir que las indicaciones queden por escrito
+              para revisarlas luego con calma junto a tu familia.
+            </p>
+            <p>
+              El objetivo es que salgas de la consulta con un plan claro,
+              posible de aplicar en tu día a día y con la tranquilidad de saber
+              que tendrás seguimiento cuando lo necesites.
+            </p>
           </div>
         </div>
 
@@ -58,10 +60,10 @@ export default function PacientesPage() {
           <div className="timeline-step">
             <div className="timeline-step-number">1</div>
             <div className="timeline-step-body">
-              <h3>Agenda tu cita</h3>
+              <h3>Agendar cita</h3>
               <p>
-                Escribe por WhatsApp o llama al consultorio para elegir el día y
-                horario que mejor se adapte a ti.
+                Escribe al whatsapp o llama al consultorio para elegir el día y
+                la hora que mejor se adapte a ti.
               </p>
             </div>
           </div>
@@ -71,8 +73,10 @@ export default function PacientesPage() {
             <div className="timeline-step-body">
               <h3>Acude a tu consulta</h3>
               <p>
-                Llega con unos minutos de anticipación, trae tus documentos y
-                todo lo que quieras revisar con la doctora.
+                El edificio Pacific Center (Panama Clinic) cuenta con amplia
+                área de estacionamientos si lo ameritas. Nuestro consultorio se
+                encuentra ubicado en la Torre A, en el piso 11 y es el
+                consultorio 1108.
               </p>
             </div>
           </div>
@@ -82,8 +86,11 @@ export default function PacientesPage() {
             <div className="timeline-step-body">
               <h3>Seguimiento</h3>
               <p>
-                Si se solicitan exámenes o controles posteriores, se coordina un
-                plan de seguimiento para acompañarte en el proceso.
+                Siempre me encargo personalmente de comunicarme contigo y dar
+                seguimiento a todo lo que hemos evaluado en la consulta.
+                Asimismo, siempre estamos en la disposición de aclarar cualquier
+                duda que se pudiese mantener sobre la atención recibida, con una
+                comunicación continua.
               </p>
             </div>
           </div>
