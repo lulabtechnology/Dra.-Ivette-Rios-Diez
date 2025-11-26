@@ -7,7 +7,7 @@ export default function PacientesPage() {
     <div className="section section-page">
       <div className="container">
         <div className="section-header">
-          <p className="section-kicker">Información para pacientes</p>
+          {/* Se eliminó el texto pequeño "Información para pacientes" */}
           <h1 className="section-title">
             Todo lo que necesitas saber antes de tu consulta
           </h1>
