@@ -1,3 +1,4 @@
+// app/page.js
 import Link from 'next/link';
 
 const WHATSAPP_LINK =
@@ -286,7 +287,7 @@ export default function Home() {
               >
                 Ver en Google Maps
               </a>
-              <a href={WHATSAPP_LINK} className="link-arrow">
+              <a href={WHATSAPP_LINK} className="link-arrow" target="_blank" rel="noopener noreferrer">
                 Agendar cita por WhatsApp →
               </a>
             </div>
@@ -333,7 +334,7 @@ export default function Home() {
             <h2 className="summary-title">Horarios y contacto</h2>
             <p className="summary-text">Horario de lunes a sábado.</p>
             <p className="summary-text">
-              Teléfono: +507 3102475 · WhatsApp:+507 64615495.
+              Teléfono: +507 3102475 · WhatsApp: +507 63694565 ó +507 64615494.
             </p>
             <p className="summary-text">Piso 11-Consultorio 1108.</p>
           </div>
