@@ -1,3 +1,4 @@
+// app/components/Header.jsx
 import Link from 'next/link';
 
 const WHATSAPP_LINK =
@@ -29,6 +30,7 @@ export default function Header() {
           <Link href="/sobre-mi">Sobre mí</Link>
           <Link href="/servicios">Servicios</Link>
           <Link href="/pacientes">Pacientes</Link>
+          <Link href="/tips-salud">Tips de salud</Link>
           <Link href="/contacto">Contacto</Link>
           <a
             href={WHATSAPP_LINK}
