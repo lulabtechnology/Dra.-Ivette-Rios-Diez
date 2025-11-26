@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 const WHATSAPP_LINK =
-  'https://wa.me/50763694565?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
+  'https://wa.me/50764615494?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
 
 export default function Home() {
   return (
@@ -333,7 +333,7 @@ export default function Home() {
             <h2 className="summary-title">Horarios y contacto</h2>
             <p className="summary-text">Horario de lunes a sábado.</p>
             <p className="summary-text">
-              Teléfono: +507 3102475 · WhatsApp: +507 63694565 ó +50764615495.
+              Teléfono: +507 3102475 · WhatsApp:+507 64615495.
             </p>
             <p className="summary-text">Piso 11-Consultorio 1108.</p>
           </div>
