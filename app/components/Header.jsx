@@ -13,13 +13,13 @@ export default function Header() {
               {/* Logo: sube el archivo en /public/logo-dra-ivette.png */}
               <img
                 src="/logo-dra-ivette.png"
-                alt="Logo Dra. Ivette Rios Diez"
+                alt="Logo Dra. Ivette Ríos Diez"
               />
             </span>
             <span className="logo-text">
-              <span className="logo-name">Dra. Ivette Rios Diez</span>
+              <span className="logo-name">Dra. Ivette Ríos Diez</span>
               <span className="logo-tagline">
-                Atención primaria en Panamá
+                Atención Primaria, Medicina General y Cuidados Paliativos
               </span>
             </span>
           </Link>
