@@ -1,6 +1,6 @@
 // app/tips-salud/page.js
 const WHATSAPP_LINK =
-  'https://wa.me/50763694565?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20recibir%20orientaci%C3%B3n%20sobre%20mi%20salud.';
+  'https://wa.me/50764615494?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20recibir%20orientaci%C3%B3n%20sobre%20mi%20salud.';
 
 export default function TipsSaludPage() {
   return (
