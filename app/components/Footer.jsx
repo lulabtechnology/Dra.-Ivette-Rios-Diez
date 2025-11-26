@@ -1,3 +1,4 @@
+// app/components/Footer.jsx
 const WHATSAPP_LINK =
   'https://wa.me/50763694565?text=Hola%20doctora%20Ivette,%20me%20gustar%C3%ADa%20agendar%20una%20cita.';
 
@@ -41,11 +42,11 @@ export default function Footer() {
               </a>{' '}
               ·{' '}
               <a
-                href="https://wa.me/50764615495"
+                href="https://wa.me/50764615494"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                +507 64615495
+                +507 64615494
               </a>
             </p>
             <p>
