@@ -9,7 +9,7 @@ export default function TipsSaludPage() {
         {/* Cabecera con imagen destacada para tips médicos */}
         <div className="page-hero-grid">
           <div>
-            <p className="section-kicker">Tips de salud</p>
+            {/* Se eliminó el texto pequeño "Tips de salud" */}
             <h1 className="section-title">
               Recomendaciones sencillas para cuidar tu salud día a día
             </h1>
@@ -21,7 +21,7 @@ export default function TipsSaludPage() {
           </div>
 
           <div className="page-hero-photo">
-            {/* Sube esta imagen a /public/images/dra-ivette-tips-salud-hero.jpg */}
+            {/* /public/images/dra-ivette-tips-salud-hero.jpg */}
             <img
               src="/images/dra-ivette-tips-salud-hero.jpg"
               alt="Paciente revisando recomendaciones de salud junto a su médica"
