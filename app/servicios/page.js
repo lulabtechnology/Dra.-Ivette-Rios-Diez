@@ -7,7 +7,7 @@ export default function ServiciosPage() {
     <div className="section section-page">
       <div className="container">
         <div className="section-header">
-          <p className="section-kicker">Servicios</p>
+          {/* Se eliminó el texto pequeño "Servicios" */}
           <h1 className="section-title">
             Servicios médicos en atención primaria
           </h1>
@@ -22,10 +22,10 @@ export default function ServiciosPage() {
           </p>
         </div>
 
-        {/* Bloque visual con imágenes en lugares diferentes (no superpuestas) */}
+        {/* Dos imágenes en columnas, separadas (no superpuestas) */}
         <div className="two-columns" style={{ marginBottom: '2.5rem' }}>
           <div>
-            {/* Sube esta imagen a /public/images/dra-ivette-servicios-1.jpg */}
+            {/* /public/images/dra-ivette-servicios-1.jpg */}
             <img
               src="/images/dra-ivette-servicios-1.jpg"
               alt="Dra. Ivette conversando con un paciente durante la consulta"
@@ -38,7 +38,7 @@ export default function ServiciosPage() {
             />
           </div>
           <div>
-            {/* Sube esta imagen a /public/images/dra-ivette-servicios-2.jpg */}
+            {/* /public/images/dra-ivette-servicios-2.jpg */}
             <img
               src="/images/dra-ivette-servicios-2.jpg"
               alt="Vista del consultorio de la Dra. Ivette Ríos Diez"
@@ -56,7 +56,7 @@ export default function ServiciosPage() {
           <article className="card card-service">
             <h2 className="card-title">Atención preventiva de salud</h2>
             <p className="card-body">
-              Evaluación general y especifica de salud, orientaciones sobre
+              Evaluación general y específica de salud, orientaciones sobre
               estilos de vida saludables, consejos sobre alimentación y
               ejercicio, todos basados en la evaluación individual de cada
               paciente.
@@ -102,39 +102,3 @@ export default function ServiciosPage() {
               seguimiento cercano.
             </p>
           </article>
-
-          <article className="card card-service">
-            <h2 className="card-title">Cambios de sondas Urinarias</h2>
-            <p className="card-body">
-              Cambios de sondas urinarias con enfoque en la comodidad,
-              seguridad y dignidad de cada paciente.
-            </p>
-          </article>
-
-          <article className="card card-service">
-            <h2 className="card-title">Electrocardiogramas</h2>
-            <p className="card-body">
-              Realización de electrocardiogramas como parte de la evaluación
-              cardiovascular y control de patologías cardíacas.
-            </p>
-          </article>
-        </div>
-
-        <div className="section-cta-center">
-          <a
-            href={WHATSAPP_LINK}
-            className="btn btn-primary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Agenda tu cita por WhatsApp
-          </a>
-          <p className="section-note">
-            Si tienes dudas sobre algún servicio, puedes escribir directamente a
-            WhatsApp para recibir orientación.
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
